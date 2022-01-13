@@ -1,0 +1,67 @@
+body
+{
+    background-color: rgb(207,205,255);
+}
+
+
+h1
+{
+    color: green;
+    font-size:2.8em;
+    font-family:impact,"times new roman";
+    text-align:center;
+    text-shadow: 2px 2px 2px black;  /* met une ombre de couleur sous le titre principal */
+
+}
+.coord   /* met les coordonnées du CV */
+{
+    font-size:1.2em;
+}
+
+.imageflottante1 /* positionne laphoto de votre serviteur a l'endoit ou l'on veut */
+{
+    float:right;
+}
+h2
+{
+    color:grey;
+    font-size:1,5em;
+    font-weight:bold:
+}
+h3
+{
+    color: red;
+    font-size:1.5em;
+    font-weight:bold;
+}
+p  /* agit sur TOUT les paragraphe. pour agir sur des lignes ou portions de phrases utilier <span> */
+   /* pour agir sur un ensemble de lignes (blocs) utiliser <div> */
+{
+    color:black;
+    font-size:1.3em;
+    font-family: arial;"times-new-roman"; /* mettre plusieurs polices séparées d'un ; entre "" quand il y a des  espaces */
+    font-style: normal;
+    font-weight: normal;
+}
+em      /* annule l'italique de mise en valeur dans le texte (italique en html) */
+{
+    font-style: normal;
+}
+strong  /* annule la mise en valeur forte dans le texte (strong en html) */
+{
+    font-weight: normal;
+}
+
+.date    /* met en gras les dates importantes du CV */
+{
+    font-weight: bold;
+}
+.diplome     /*met une photo entre les balises <div> avec comme claas (diplome) */
+{
+    background-image:url(/pics/paysage.jpg);
+}
+
+.autodidacte_loisirs /*met une photo entre les balises <div> avec comme claas (autodidacte_loisirs) */
+{
+
+}
