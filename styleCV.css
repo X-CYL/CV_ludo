@@ -2,9 +2,8 @@ body {
   background-color: rgb(229, 237, 253);
   display: flex;
   flex-direction: row;  
-}
-p{
-  font-size: 1.2em;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1em;
 }
 h1{
   text-align: center;
@@ -16,7 +15,8 @@ h3
    {
   padding-left: 5px;
   text-decoration: underline;
-  font-style: oblique;
+  font-style: normal;
+  font-weight: bold;
 }
 strong {
   font-weight: lighter;
@@ -29,9 +29,10 @@ em{
   padding: 10px;
 }
 .thirdContainer {
-  background: burlywood;
+  background: rgb(242, 250, 241);
   max-width: 35%;
   margin-top: 10px;
+  border-left: rgb(60, 226, 60) solid 10px;
 }
 .secondContainer {
   /*background: rgb(166, 241, 216);*/
@@ -39,7 +40,7 @@ em{
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
-  border-left: rgb(223, 223, 243) solid 10px;
+  border-left: rgb(130, 130, 241) solid 10px;
 }
 .experiences {
   background: rgb(255, 253, 253);
@@ -67,4 +68,84 @@ p{
 } 
 .divers2 {
   background: khaki;
+  border: solid 2px rgb(162, 184, 243);
+  border-radius: 8px;
+  margin: 20px 10px 20px 30px;
+  padding-bottom: 20px;
+  box-shadow: rgb(189, 238, 189) 4px 4px 8px;
+}
+.name{
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.photoMoi{
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  padding-left: 110px;
+}
+/*.picture_of_me{
+  border: solid 2px rgb(162, 184, 243);
+  border-radius: 8px;
+}*/
+.logo{
+  max-height: 30px;
+  max-width: 30px;
+  margin-left: 1%;
+  padding-top: 2%;
+}
+.contact{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+}
+.adress{
+  /*display:inline;*/
+  margin-left: 6%;
+  margin-top: -5%;
+}
+.mailAdress{
+  margin-left: 25%;
+  margin-top: -20px;
+  padding-left: 15px;
+  padding-top: -160px;
+}
+.lunguages{
+  display: inline;
+  margin-left: 1%;
+  margin-top: -3%;
+}
+.container {
+  background-color: rgb(192, 192, 192);
+  width: 40%;
+  border-radius: 5px;
+  margin-left: 33%;
+  margin-top: -18px;
+}
+  
+.skill {
+  background-color: rgb(144, 190, 130);
+  color: white;
+  padding: 1%;
+  text-align: right;
+  font-size: 10px;
+  border-radius: 5px;
+}
+.container2 {
+  background-color: rgb(192, 192, 192);
+  width: 20%;
+  border-radius: 5px;
+  margin-left: 33%;
+  margin-top: -18px;
+}
+  
+.skill2 {
+  background-color: rgb(144, 190, 130);
+  color: white;
+  padding: 1%;
+  text-align: right;
+  font-size: 10px;
+  border-radius: 5px;
 }
