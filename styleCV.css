@@ -11,8 +11,7 @@ h1{
 h2 {
   text-align: center;
 }
-h3
-   {
+h3 {
   padding-left: 5px;
   text-decoration: underline;
   font-style: normal;
@@ -29,10 +28,11 @@ em{
   padding: 10px;
 }
 .thirdContainer {
-  background: rgb(242, 250, 241);
+  /*background: rgb(242, 250, 241);*/
+  background: rgb(229, 237, 253);
   max-width: 35%;
   margin-top: 10px;
-  border-left: rgb(60, 226, 60) solid 10px;
+  border-left: rgb(33, 126, 33) solid 10px;
 }
 .secondContainer {
   /*background: rgb(166, 241, 216);*/
@@ -67,8 +67,8 @@ p{
   box-shadow: rgb(222, 243, 234) 4px 4px 8px;
 } 
 .divers2 {
-  background: khaki;
-  border: solid 2px rgb(162, 184, 243);
+  background: rgb(213, 226, 248);;
+  /*border: solid 2px rgb(162, 184, 243);*/
   border-radius: 8px;
   margin: 20px 10px 20px 30px;
   padding-bottom: 20px;
@@ -82,29 +82,30 @@ p{
 .photoMoi{
   height: 200px;
   width: 200px;
-  margin: 10px;
-  padding-left: 110px;
-}
-/*.picture_of_me{
-  border: solid 2px rgb(162, 184, 243);
-  border-radius: 8px;
-}*/
-.logo{
-  max-height: 30px;
-  max-width: 30px;
-  margin-left: 1%;
-  padding-top: 2%;
+  margin: 5%;
+  padding-left: 22%;
+  padding-top: 5%;
 }
 .contact{
+  width: 20;
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content:flex-start;
+  align-items: flex-start;
 }
-.adress{
-  /*display:inline;*/
-  margin-left: 6%;
-  margin-top: -5%;
+.adressTitle{
+  margin-top: 1%;
+  margin-left: 35%;
+}
+.logoAdress{
+  max-height: 30px;
+  max-width: 30px;
+  margin-top: 10%;
+  margin-left: -50%;
+}
+.adressHome{
+  margin-top: 12%;
+  margin-left: 2%;
 }
 .mailAdress{
   margin-left: 25%;
@@ -112,10 +113,30 @@ p{
   padding-left: 15px;
   padding-top: -160px;
 }
+.logoMobile{
+  max-width: 30px;
+  max-height: 30px;
+  margin-top: 22%;
+  margin-left: -63%;
+}
+.adressPhone{
+  margin-top: 24%;
+  margin-left: 1%;
+}
+.email{
+  margin-top: 35%;
+  margin-left: 4%;
+}
+.logoMail{
+  max-width: 30px;
+  max-height: 30px;
+  margin-top: 34%;
+  margin-left: -42%;
+}
 .lunguages{
   display: inline;
   margin-left: 1%;
-  margin-top: -3%;
+  margin-top: -2%;
 }
 .container {
   background-color: rgb(192, 192, 192);
@@ -124,7 +145,11 @@ p{
   margin-left: 33%;
   margin-top: -18px;
 }
-  
+.flag{
+  margin-top: 2%;
+  max-width: 30px;
+  max-height: 30px;
+}
 .skill {
   background-color: rgb(144, 190, 130);
   color: white;
