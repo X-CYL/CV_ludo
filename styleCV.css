@@ -86,52 +86,72 @@ p{
   padding-left: 22%;
   padding-top: 5%;
 }
-.contact{
-  width: 20;
+.contactContainer{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
 }
-.adressTitle{
-  margin-top: 1%;
-  margin-left: 35%;
-}
-.logoAdress{
-  max-height: 30px;
-  max-width: 30px;
-  margin-top: 10%;
-  margin-left: -50%;
-}
-.adressHome{
-  margin-top: 12%;
+.Logo{
+  width: 6%;
+  height: 6%;
   margin-left: 2%;
 }
-.mailAdress{
-  margin-left: 25%;
-  margin-top: -20px;
-  padding-left: 15px;
-  padding-top: -160px;
-}
-.logoMobile{
-  max-width: 30px;
-  max-height: 30px;
-  margin-top: 22%;
-  margin-left: -63%;
-}
-.adressPhone{
-  margin-top: 24%;
-  margin-left: 1%;
-}
 .email{
-  margin-top: 35%;
-  margin-left: 4%;
+  width: 6%;
+  height: 6%;
+  margin-left: 2%;
+  margin-top: 2%;
 }
-.logoMail{
-  max-width: 30px;
-  max-height: 30px;
-  margin-top: 34%;
-  margin-left: -42%;
+.adress{
+  margin-top: -4%;
+  margin-left: 10%;
+}
+.phone{
+  margin-top: -4%;
+  margin-left: 10%;
+}
+.mail{
+  margin-top: -12%;
+  margin-left: 3%;
+}
+@media screen and (max-width: 1100px){
+  .photoMoi{
+    height: 90px;
+    width: 90px;
+    margin: 5%;
+    padding-left: 22%;
+    padding-top: 5%;
+  }
+  .lunguages{
+    font-size: 0.8em;
+  }
+  .flag{
+    margin-left: 30%;
+  }
+  .skill {
+    margin-top: 20%;
+  }
+  .skill2{
+    margin-top: 40%;
+  }
+}
+@media screen and (max-width: 700px){
+  .mail{
+    font-size: 0.5em;
+  }
+  .photoMoi{
+    height: 80px;
+    width: 80px;
+    margin: 5%;
+    padding-left: 22%;
+    padding-top: 5%;
+  }
+  .skill {
+    margin-top: 35%;
+  }
+  .skill2{
+    margin-top: 70%;
+  }
 }
 .lunguages{
   display: inline;
